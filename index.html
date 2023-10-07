@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-Container">
+      <div class="upperPart">
+        <div class="heading">
+          <h1>Movie <span id="tracker">Tracker</span></h1>
+        </div>
+        <div class="searchBar">
+          <input type="text" placeholder="Search movies" />
+          <br />
+          <button type="button" onclick="addMovie()">Search</button>
+          <div class="movieList"></div>
+        </div>
+      </div>
+      <div class="moviesContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
